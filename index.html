@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="container">
+
+        <form action="#">
+            <input type="text" name="" id="urunAdiId" class="urunAdiClass" placeholder="Urun Adi">
+            <input type="text" name="" id="urunModelId" class="urunModelClass" placeholder="Urun Model">
+            <input type="text" name="" id="urunFiyatId" class="urunFiyatClass" placeholder="Urun Fiyat">
+            <div>
+                <input type="file" name="" id="fileId">
+                <label for="fileId" class="labelFile">Resim Sec</label>
+            </div>
+            <input type="submit" value="EKLE" id="urunEkleSubmitId" class="urunEkleSubmitClass">
+        </form>
+
+        <div class="urunListesi">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Marka</th>
+                        <th>Model</th>
+                        <th>Fiyat</th>
+                        <th>Sil</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="resimgalerisi">
+
+
+        </div>
+    </div>
+
+
+
+    <!-- <div class="" id="urunList">
+        <nav class="urunListBaslik">
+            <ul>
+                <li>Marka</li>
+                <li>Model</li>
+                <li>Fiyat</li>
+                <li>Sil</li>
+            </ul>
+        </nav>
+        <nav class="urunListesi">
+
+        </nav>
+    </div>-->
+
     <script src="script.js"></script>
 </body>
+
 </html>

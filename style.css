@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: rgb(128, 116, 139);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+form #urunAdiId,
+form #urunModelId,
+form #urunEkleSubmitId,
+form #urunFiyatId,
+form #fileId {
+    margin-bottom: 10px;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+}
+
+#urunEkleSubmitId {
+    background-color: darkcyan;
+    border: 2px solid gray rgba(0, 0, 0, .4);
+    box-shadow: 1px 3px 0 rgba(0, 0, 0, .3);
+    color: #000;
+    font-weight: bolder;
+    font-size: 1em;
+
+}
+
+
+form #urunAdiId:active,
+#urunModelId:active,
+#urunFiyatId:active {
+    inline-size: none;
+}
+
+
+
+
+.urunListesi table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    background-color: darkgray;
+
+
+}
+
+.urunListesi table thead tr {
+    background-color: rgb(65, 112, 112);
+    color: #ffffff;
+    text-align: left;
+    height: 2em;
+    margin-left: 5px;
+}
+
+.urunListesi table th,
+.urunListesi table td {
+    padding: 12px 15px;
+}
+
+.hata {
+    background-color: red;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    width: 25rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.silindi,
+.basarili {
+    background-color: rgb(53, 117, 69);
+    color: #fff;
+    margin-bottom: 15px;
+
+    border-radius: 3px;
+    width: 25rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+
+.resimgalerisi {
+    width: 100vw;
+    height: 250px;
+    background-color: rgb(215, 228, 228);
+    padding-left: 15px;
+}
+
+
+#fileId {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.labelFile {
+    display: block;
+    position: relative;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 3px;
+    /*box-shadow: 0 4px 7px rgba(0, 0, 0, .4);*/
+
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 3px;
+    color: rgba(34, 21, 21, 0.582);
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.eklenenResim {
+    margin-right: 15px;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, .3);
+}
