@@ -1,6 +1,11 @@
 # javascriptileurunekle
 
-Bir ürünün adini modelini ve fiyatini bir tabloya liste seklinde ekleyen bir proje. 
-Tamamlamak istedigim: bu ürünü resim altina aciklama seklinde gelistirmek 
-Projede kullandigim script dilleri: Html5 Css3 ve javascript
+## Projenin amaci:
+   Tablo seklinde bir liste olusturmak. Listeye ürünün adi, modeli ve fiyati belirtiliyor.</br> 
+   Alt tarafa da su anlik ürünün resmini ekleyebilecegimiz bir resim ekleme bölümü var.
+### Projeye sonradan eklenecek olan kisim: 
+     Ürünleri resim altina özellikleri seklinde kaydetmek.     
+### Projede kullandigim script dilleri: 
+     HTML, CSS, JavaScript
 
+![Projenin bir görüntüsü]
