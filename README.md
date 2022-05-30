@@ -8,4 +8,4 @@
 ### Projede kullandigim script dilleri: 
      HTML, CSS, JavaScript
 
-![Projenin bir görüntüsü](https://github.com/ysclk/javascriptileurunekle/blob/main/Screenshot%20Capture%20-%202022-05-06%20-%2007-45-30.png)
+
